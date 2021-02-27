@@ -1,0 +1,58 @@
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+    margin-top: 15px;
+    width: 100%;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
+  
+  .default {
+    background-color: $color-secondary;
+
+    &:hover {
+      background-color: lighten($color-secondary, 15%);
+      cursor: pointer;
+    }
+  }
+  
+  .error {
+    background-color: $color-btn-error;
+
+    &:hover {
+      background-color: lighten($color-btn-error, 15%);
+      cursor: pointer;
+    }
+  }
+  
+  .info {
+    background-color: $color-btn-info;
+
+    &:hover {
+      background-color: lighten($color-btn-info, 15%);
+      cursor: pointer;
+    }
+  }
+  
+  .success {
+    background-color: $color-btn-success;
+
+    &:hover {
+      background-color: lighten($color-btn-success, 15%);
+      cursor: pointer;
+    }
+  }
+  
+  .warning {
+    background-color: $color-btn-warning;
+
+    &:hover {
+      background-color: lighten($color-btn-warning, 15%);
+      cursor: pointer;
+    }
+  }

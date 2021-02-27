@@ -1,0 +1,39 @@
+/************ Color Variables ************/
+
+$color-primary: #58e1c1;
+$color-secondary: #51ddfc;
+
+/// Button Colors 
+
+$color-btn-default: #51ddfc;
+$color-btn-error: #e4757a;
+$color-btn-info: #927bc1;
+$color-btn-success: #63cc82;
+$color-btn-warning: #fd7856;
+
+
+
+
+/************ Typography Variables ************/
+
+// Text Colors
+
+$color-text-primary: #777;
+
+
+// Line Height
+
+$line-height-primary: 1.45em;
+
+
+// Font Weight
+
+$font-weight-light: 300;
+$font-weight-bold: 700;
+
+
+
+
+/************ Media Query Breakpoint ************/
+
+$breakpoint: '(min-width: 768px)';

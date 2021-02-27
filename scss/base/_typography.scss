@@ -1,0 +1,47 @@
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+* {
+    font-family: 'Lato', sans-serif;
+    color: $color-text-primary;
+    box-sizing: border-box;
+}
+
+.headline {
+    &-primary {
+        color: $color-primary;
+        margin-left: 10px;
+    }
+
+    &-secondary {
+        font-weight: $font-weight-light;
+        color: $color-text-primary;
+    }   
+}
+  
+.link {
+    color: $color-secondary;
+    font-weight: $font-weight-bold;
+}
+  
+.blockquote {
+    font-size: 1.5em;
+    font-weight: $font-weight-light;
+    font-style: italic;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 8px solid $color-primary;
+    border-radius: 5px;
+}
+
+
+
+
+p {
+    line-height: $line-height-primary;
+}
+
+a {
+    text-decoration: none;
+}
+
