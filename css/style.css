@@ -545,6 +545,10 @@ a {
   flex-basis: 100%;
 }
 
+.form fieldset {
+  border: none;
+}
+
 .input {
   display: block;
   width: 94%;
